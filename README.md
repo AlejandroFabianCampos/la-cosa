@@ -1,4 +1,6 @@
-This project belongs to ### `Alejandro Fabian Campos`, right now I'm only working on a Spanish text/comments, but if you are interested in an English version of this project or have any doubt about it, let me know at camposalejandrofabian@gmail.com, it will be my pleasure to help you.
+This project belongs to:
+ ### `Alejandro Fabian Campos` 
+ Right now I'm only working on a Spanish text/comments, but if you are interested in an English version of this project or have any doubt about it, let me know at camposalejandrofabian@gmail.com, it will be my pleasure to help you.
 
 Este es un proyecto de Alejandro Fabian Campos, con el objetivo de en primera instancia aprender sobre react, su forma de desarrollo, librerías que funcionen en conjunto y/o MVC. Fue creado utilizando el CLI de React ("create-react-app"). Al ser un proyecto de entrenamiento y aprendizaje es posible que esté un poco desordenado y/o mal explicado, si tenés alguna duda me podes contactar a camposalejandrofabian@gmail.com. ¡Me va a encantar saber que a alguien le interesa! 
 
