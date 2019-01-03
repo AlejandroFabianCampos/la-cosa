@@ -30,16 +30,16 @@ import {
     render() {
       return (
         <div>
-          <Navbar color="light" light expand="md">
+          <Navbar color="dark" dark expand="md">
             <NavbarBrand href="/">La Cosa</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="/components/">Components</NavLink>
+                  <NavLink href="/faq/">F.A.Q.</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                  <NavLink href="https://github.com/AlejandroFabianCampos/la-cosa" target="_blank">GitHub</NavLink>
                 </NavItem>
                 <UncontrolledDropdown nav inNavbar>
                   <DropdownToggle nav caret>

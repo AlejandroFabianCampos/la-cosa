@@ -1,14 +1,24 @@
-/*body {
-    font-size: 10rem;
-}*/
-
 h1 {
     text-align: center;
 }
 
-.Home {
-    font-size: 10rem;
+.FeedBackground {
+    overflow: auto;
+    display: block;
+    margin: auto;
+    width: 90vw;
+    height: 60vh;
+    background-color: rgba(192, 117, 117, 0.582);
+    border-radius: 5px;
 }
+
+.MediaBackground {
+    padding: 20px;
+}
+
+/*.Home {
+    font-size: 10rem;
+}*/
 
 .CenteredButton {
     display: block;
@@ -18,7 +28,18 @@ h1 {
 
 
 .TitleText {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 10px;
 }
+
+
+@media (max-height: 712px) {
+    .FeedBackground {
+        max-height: 300px;
+    }
+    .MediaBackground {
+        padding: 10px;
+    }
+} 
+
 
