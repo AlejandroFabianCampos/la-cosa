@@ -29,7 +29,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
       return (
         <div>
           <Navbar color="dark" dark expand="md">
-            <NavbarBrand href="/">La Cosa</NavbarBrand>
+            <NavbarBrand href="#">La Cosa</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>

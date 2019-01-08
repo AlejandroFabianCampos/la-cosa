@@ -44,8 +44,12 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `Comandos personalizados`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Para publicar la build final bajo gh-pages utilicé el paquete -gh-pages- en conjunto con un par de simples comandos de npm configurados en el package.json.
+Los mismos siendo: 
+`npm run predeploy` - Se encarga de lanzar `npm run build`, que es el comando que se encarga de construir la página final de React.
+`npm run deploy` - Se encarga de checkear la build en un principio y luego, utilizando gh-pages sube los archivos bajo la carpeta "build", en la rama gh-pages del repositorio. 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Actualmente este proyecto se encuenta `Finalizado`.
