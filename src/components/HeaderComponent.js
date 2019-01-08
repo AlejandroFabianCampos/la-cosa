@@ -6,11 +6,9 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem } from 'reactstrap';
+  NavLink } from 'reactstrap';
+import { NavLink as Link } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
   export default class HeaderComponent extends Component {
@@ -36,28 +34,17 @@ import {
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
                 <NavItem>
-                  <NavLink href="/faq/">F.A.Q.</NavLink>
+                  <NavLink tag={Link} exact to="/" activeClassName="active">Página Principal</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} to="/about/" activeClassName="active">¿Qué es La Cosa?</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink tag={Link} to="/faq/" activeClassName="active">F.A.Q.</NavLink>
                 </NavItem>
                 <NavItem>
                   <NavLink href="https://github.com/AlejandroFabianCampos/la-cosa" target="_blank">GitHub</NavLink>
                 </NavItem>
-                <UncontrolledDropdown nav inNavbar>
-                  <DropdownToggle nav caret>
-                    Options
-                  </DropdownToggle>
-                  <DropdownMenu right>
-                    <DropdownItem>
-                      Option 1
-                    </DropdownItem>
-                    <DropdownItem>
-                      Option 2
-                    </DropdownItem>
-                    <DropdownItem divider />
-                    <DropdownItem>
-                      Reset
-                    </DropdownItem>
-                  </DropdownMenu>
-                </UncontrolledDropdown>
               </Nav>
             </Collapse>
           </Navbar>

@@ -4,7 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HeaderComponent from './components/HeaderComponent.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
-import Participate from './components/Participate.js';
+import Faq from './components/Faq.js';
 
 
 
@@ -14,11 +14,11 @@ class RouterPage extends Component {
     return (
       <BrowserRouter>
         <div>
-          <HeaderComponent />
+        <Route path="/" component={HeaderComponent} />
           <Switch>
-            <Route exact path="/" render={Home} />
-            <Route path="/about/" Component={About} />
-            <Route path="/participate/" Component={Participate} />
+            <Route exact path="/" component={Home} />
+            <Route path="/about/" component={About} />
+            <Route path="/faq/" component={Faq} />
           </Switch>
         </div>  
       </BrowserRouter>
