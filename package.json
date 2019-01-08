@@ -2,6 +2,7 @@
   "name": "la-cosa",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://alejandrofabiancampos.github.io/la-cosa/",
   "dependencies": {
     "bootstrap": "^4.1.3",
     "react": "^16.6.3",
@@ -14,6 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
