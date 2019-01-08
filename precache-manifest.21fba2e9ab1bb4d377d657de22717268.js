@@ -4,23 +4,23 @@ self.__precacheManifest = [
     "url": "/la-cosa/static/js/runtime~main.480a4d2c.js"
   },
   {
-    "revision": "46a42e0b17ad1614fc30",
-    "url": "/la-cosa/static/js/main.46a42e0b.chunk.js"
+    "revision": "b9adcc7b1daa01956688",
+    "url": "/la-cosa/static/js/main.b9adcc7b.chunk.js"
   },
   {
-    "revision": "5a5fdfae8529277ebc3e",
-    "url": "/la-cosa/static/js/1.5a5fdfae.chunk.js"
+    "revision": "8ea1da5093321d5912a5",
+    "url": "/la-cosa/static/js/1.8ea1da50.chunk.js"
   },
   {
-    "revision": "46a42e0b17ad1614fc30",
+    "revision": "b9adcc7b1daa01956688",
     "url": "/la-cosa/static/css/main.5faf52b3.chunk.css"
   },
   {
-    "revision": "5a5fdfae8529277ebc3e",
+    "revision": "8ea1da5093321d5912a5",
     "url": "/la-cosa/static/css/1.dc5f629d.chunk.css"
   },
   {
-    "revision": "faf390430701f011daaa5f6d21c558e5",
+    "revision": "23060da3c768175bfbc7a9fae2bb6566",
     "url": "/la-cosa/index.html"
   }
 ];
