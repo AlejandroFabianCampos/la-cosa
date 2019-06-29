@@ -1,7 +1,7 @@
 {
   "main.css": "/la-cosa/static/css/main.5faf52b3.chunk.css",
-  "main.js": "/la-cosa/static/js/main.578d0168.chunk.js",
-  "main.js.map": "/la-cosa/static/js/main.578d0168.chunk.js.map",
+  "main.js": "/la-cosa/static/js/main.efac9404.chunk.js",
+  "main.js.map": "/la-cosa/static/js/main.efac9404.chunk.js.map",
   "static/css/1.dc5f629d.chunk.css": "/la-cosa/static/css/1.dc5f629d.chunk.css",
   "static/js/1.8ea1da50.chunk.js": "/la-cosa/static/js/1.8ea1da50.chunk.js",
   "static/js/1.8ea1da50.chunk.js.map": "/la-cosa/static/js/1.8ea1da50.chunk.js.map",
@@ -10,6 +10,6 @@
   "static/css/1.dc5f629d.chunk.css.map": "/la-cosa/static/css/1.dc5f629d.chunk.css.map",
   "static/css/main.5faf52b3.chunk.css.map": "/la-cosa/static/css/main.5faf52b3.chunk.css.map",
   "index.html": "/la-cosa/index.html",
-  "precache-manifest.056ae65cd7001d77450a1c6883bc0eda.js": "/la-cosa/precache-manifest.056ae65cd7001d77450a1c6883bc0eda.js",
+  "precache-manifest.0a75a07f3b5acbcad38d96557cbcc983.js": "/la-cosa/precache-manifest.0a75a07f3b5acbcad38d96557cbcc983.js",
   "service-worker.js": "/la-cosa/service-worker.js"
 }
